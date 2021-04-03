@@ -1,0 +1,6 @@
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\DBAccess\bin\Debug\DBAccess.dll
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\DBAccess\bin\Debug\DBAccess.pdb
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\DBAccess\obj\Debug\DBAccess.csprojAssemblyReference.cache
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\DBAccess\obj\Debug\DBAccess.csproj.CoreCompileInputs.cache
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\DBAccess\obj\Debug\DBAccess.dll
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\DBAccess\obj\Debug\DBAccess.pdb

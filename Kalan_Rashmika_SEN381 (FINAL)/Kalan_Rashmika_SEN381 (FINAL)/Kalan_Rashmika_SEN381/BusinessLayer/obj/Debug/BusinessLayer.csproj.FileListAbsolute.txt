@@ -1,0 +1,9 @@
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\bin\Debug\DBAccess.dll
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\bin\Debug\DBAccess.pdb
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\kalan\Desktop\Kalan_Rashmika_SEN381\BusinessLayer\obj\Debug\BusinessLayer.pdb

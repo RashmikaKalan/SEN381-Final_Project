@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33629CA5-942D-42FD-80E4-76AAD02B973A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kalan_Rashmika_SEN381</RootNamespace>
+    <AssemblyName>Kalan_Rashmika_SEN381</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmContractSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContractSearch.Designer.cs">
+      <DependentUpon>frmContractSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContractsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContractsMain.Designer.cs">
+      <DependentUpon>frmContractsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddAppointment.Designer.cs">
+      <DependentUpon>frmAddAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddClient.Designer.cs">
+      <DependentUpon>frmAddClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddProduct.Designer.cs">
+      <DependentUpon>frmAddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPurchase.Designer.cs">
+      <DependentUpon>frmAddPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUser.Designer.cs">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillSearch.Designer.cs">
+      <DependentUpon>frmBillSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillsMain.Designer.cs">
+      <DependentUpon>frmBillsMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCallCentre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCallCentre.Designer.cs">
+      <DependentUpon>frmCallCentre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCallSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCallSearch.Designer.cs">
+      <DependentUpon>frmCallSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientMain.Designer.cs">
+      <DependentUpon>frmClientMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientPurchaseMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientPurchaseMain.Designer.cs">
+      <DependentUpon>frmClientPurchaseMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientSearch.Designer.cs">
+      <DependentUpon>frmClientSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeSchedule.Designer.cs">
+      <DependentUpon>frmEmployeeSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewCall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewCall.Designer.cs">
+      <DependentUpon>frmNewCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductMain.Designer.cs">
+      <DependentUpon>frmProductMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductSearch.Designer.cs">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPurchaseSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPurchaseSearch.Designer.cs">
+      <DependentUpon>frmPurchaseSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveAppointment.Designer.cs">
+      <DependentUpon>frmRemoveAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveClient.Designer.cs">
+      <DependentUpon>frmRemoveClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemoveProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemoveProduct.Designer.cs">
+      <DependentUpon>frmRemoveProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemovePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemovePurchase.Designer.cs">
+      <DependentUpon>frmRemovePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchAppointmentID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchAppointmentID.Designer.cs">
+      <DependentUpon>frmSearchAppointmentID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTechnicalMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTechnicalMain.Designer.cs">
+      <DependentUpon>frmTechnicalMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateAppointment.Designer.cs">
+      <DependentUpon>frmUpdateAppointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateClient.Designer.cs">
+      <DependentUpon>frmUpdateClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateProduct.Designer.cs">
+      <DependentUpon>frmUpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmContractSearch.resx">
+      <DependentUpon>frmContractSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContractsMain.resx">
+      <DependentUpon>frmContractsMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddAppointment.resx">
+      <DependentUpon>frmAddAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddClient.resx">
+      <DependentUpon>frmAddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddProduct.resx">
+      <DependentUpon>frmAddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPurchase.resx">
+      <DependentUpon>frmAddPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUser.resx">
+      <DependentUpon>frmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillSearch.resx">
+      <DependentUpon>frmBillSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillsMain.resx">
+      <DependentUpon>frmBillsMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCallCentre.resx">
+      <DependentUpon>frmCallCentre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCallSearch.resx">
+      <DependentUpon>frmCallSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientMain.resx">
+      <DependentUpon>frmClientMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientPurchaseMain.resx">
+      <DependentUpon>frmClientPurchaseMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientSearch.resx">
+      <DependentUpon>frmClientSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeSchedule.resx">
+      <DependentUpon>frmEmployeeSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewCall.resx">
+      <DependentUpon>frmNewCall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductMain.resx">
+      <DependentUpon>frmProductMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductSearch.resx">
+      <DependentUpon>frmProductSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPurchaseSearch.resx">
+      <DependentUpon>frmPurchaseSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveAppointment.resx">
+      <DependentUpon>frmRemoveAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveClient.resx">
+      <DependentUpon>frmRemoveClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemoveProduct.resx">
+      <DependentUpon>frmRemoveProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemovePurchase.resx">
+      <DependentUpon>frmRemovePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchAppointmentID.resx">
+      <DependentUpon>frmSearchAppointmentID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTechnicalMain.resx">
+      <DependentUpon>frmTechnicalMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateAppointment.resx">
+      <DependentUpon>frmUpdateAppointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateClient.resx">
+      <DependentUpon>frmUpdateClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateProduct.resx">
+      <DependentUpon>frmUpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{fa27c49b-b02e-47ec-b719-5ca0e40e8da0}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
